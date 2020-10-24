@@ -1,18 +1,18 @@
-package com.javapractice.Inheritnce;
+package com.javapractice.inheritance;
 
- class parent {
-     parent() {
+ class Parent {
+     Parent() {
          System.out.println("Base version");
      }
  }
- class child extends parent {
-         child() {
+ class Child extends Parent {
+         Child() {
              System.out.println("Child version");
          }
  }
 
-class inheritance   {
+class Inheritance   {
      public static void main(String args[]) {
-        new child();
+        Child ch= new Child();
      }
 }
