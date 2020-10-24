@@ -24,5 +24,11 @@ class ArrayListExample {
         //Traversing through the ArrayList
         for(Integer i:arl)
             System.out.println(i);
+        //Arranging the arraylist in ascending order
+        Collections.sort(arl);
+        System.out.println(arl);
+        //Arranging the arraylist in descending order
+        Collections.sort(arl,Collections.reverseOrder());
+        System.out.println(arl);
     }
 }
